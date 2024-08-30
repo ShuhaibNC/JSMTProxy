@@ -4,7 +4,7 @@
   "description": "A sample Node.js application",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start mtproxy -i max",
+    "start": "pm2 start mtproxy.js -i max",
     "stop": "pm2 stop mtproxy",
     "restart": "pm2 restart mtproxy"
   },
